@@ -19,7 +19,7 @@ ui <- fluidPage(
                   theorem and a normal distribution. 
                   In this world you are given virtual dice. 
                   As many dice, with as many sides, 
-                  and as many rolls as you want. "),
+                  and as many rolls as you want (within reason!). "),
         sliderInput("die","Number of die:", min = 1, max = 800, value = 2),
         sliderInput("side","Number of sides per die:", min = 1, max = 800, value = 6),
         sliderInput("rolls","Number of rolls:", min = 1, max = 800, value = 30)
